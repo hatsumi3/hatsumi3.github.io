@@ -2,26 +2,26 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'hatsumi3 | Dev', // e.g: 'Name | Developer'
+  lang: 'ja', // e.g: en, es, fr, jp
+  description: 'Welcome to my website', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
+  title: ' Hello, my name is',
   name: 'hatsumi3',
-  subtitle: '',
-  cta: '',
+  subtitle: "I'm the Unknown Developer.",
+  cta: 'Know more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'terada_icon.jpg',
+  img: 'terada_icon.png',
   paragraphOne: 'yaha',
   paragraphTwo: 'yaha!',
   paragraphThree: 'yaahaaaa!',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'https://github.com/hatsumi3', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -32,8 +32,8 @@ export const projectsData = [
     title: '',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/hatsumi3',
+    repo: 'https://github.com/hatsumi3', // if no repo, the button will not show up
   },
 ];
 
@@ -41,7 +41,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'https://github.com/hatsumi3',
 };
 
 // FOOTER DATA
@@ -54,13 +54,8 @@ export const footerData = {
     },
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'linkedin',
-      url: '',
+      name: 'instagram',
+      url: 'https://www.instagram.com/hatsumi3823',
     },
     {
       id: nanoid(),
