@@ -12,7 +12,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && xcopy public .. && git add ../ && git commit -m \"Deploy to production\" && git push"
+    "deploy": "gatsby build && xcopy /Y /Q /S /E public .. && git add ../ && git commit -m \"Deploy to production\" && git push"
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
