@@ -1,1 +1,0 @@
-# hatsumi3.github.io
