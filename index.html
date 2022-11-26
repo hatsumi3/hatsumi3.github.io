@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-
-    <title>Svelte PWA</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nerdle - the daily numbers game</title>
 
     <link rel="manifest" href="/manifest.json" />
     <meta name="description" content="Svelte PWA starter template" />
@@ -15,24 +16,22 @@
     <meta name="apple-mobile-web-app-title" content="Svelte PWA" />
     <link rel="apple-touch-icon" href="/images/icons/icon-152x152.png" />
 
-    <link rel="icon" type="image/png" href="/favicon.png" />
-    <link rel="stylesheet" href="/global.css" />
-    <link rel="stylesheet" href="/build/bundle.css" />
-
-    <!-- You can remove this is you don't want to make your PWA installable -->
-    <script
+    <!-- <link rel="stylesheet" href="/normalize.css" /> -->
+   <!-- You can remove this is you don't want to make your PWA installable -->
+   <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall"
     ></script>
 
-    <script defer src="/build/bundle.js"></script>
+    <script type="module" crossorigin src="/assets/index.c5ec3f7e.js"></script>
+    <link rel="stylesheet" href="/assets/index.513451d7.css">
   </head>
-
   <body>
     <noscript>
       <div>Oops! Javascript required here! Allow it and try again!</div>
     </noscript>
-
+    <div id="app"></div>
+    
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", () => {
